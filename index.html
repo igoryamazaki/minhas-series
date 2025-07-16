@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minhas Séries</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>🎬 Minhas Séries</h1>
+    </header>
+
+    <main>
+        <section id="introducao">
+            <section id="serie-form-section">
+                <form id="serie-form">
+                    <h2>Cadastrar Nova Série</h2>
+                    <label for="titulo">Título:</label>
+                    <input type="text" id="titulo" name="titulo" required />
+
+                    <label for="genero">Gênero:</label>
+                    <input type="text" id="genero" name="genero" required />
+
+                    <label for="imagem">Imagem (URL):</label>
+                    <input type="url" id="imagem" name="imagem" required />
+
+                    <label for="descricao">Descrição:</label>
+                    <textarea id="descricao" name="descricao" rows="3"></textarea>
+
+                    <button type="submit">Adicionar Série</button>
+                </form>
+            </section>
+
+            <section id="catalogo-series">
+                <h2>Minhas Séries:</h2>
+
+                <section id="filtros">
+                    <select id="filtro-genero">
+                        <option value="">Todos os Gêneros</option>
+
+                    </select>
+                </section>
+
+                <div id="series-container">
+                    <!-- Cards  -->
+                </div>
+            </section>
+    </main>
+
+    <footer>
+        <p>Feito por Igor Yamazaki • UTFPR</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
