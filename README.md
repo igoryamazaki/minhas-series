@@ -25,13 +25,13 @@ Este projeto foi desenvolvido com foco no aprendizado de conceitos fundamentais 
 
 ## 📷 Captura de Tela
 
-> *(Adicione aqui uma imagem ou GIF mostrando o funcionamento do site)*
+![Captura de tela](./screenshot.png)
 
 ## 📂 Como Executar
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/minhas-series.git
+   git clone https://github.com/igoryamazaki/minhas-series.git
    ```
 2. Abra o arquivo `index.html` no seu navegador.
 3. Aproveite para organizar e avaliar suas séries favoritas!
